@@ -3,7 +3,7 @@ spring:
     name: ms-identity
 
   config:
-    import: optional:configserver:http://localhost:8888
+    import: "optional:configserver:http://localhost:8888"
 
   datasource:
     url: jdbc:mysql://localhost:3306/ms_identity_db
